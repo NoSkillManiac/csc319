@@ -1,0 +1,83 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+h1, h2, h3, nav, footer, .actions {
+  font-family: "Trebuchet MS", "Lucida Grande", Tahoma, sans-serif;
+}
+
+html {
+  background: url(images/art-background4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: Georgia, Cambria, "Times New Roman", serif;
+  font-size: 16px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  background-color: white;
+  width: 18em;
+  height: 8em;
+  padding-left: .75em;
+}
+
+header h1 {
+  font-family: 'Six Caps', sans-serif;
+  font-size: 3em;
+  margin: .5em 0 0 0;
+  color: black;
+}
+
+header h2 {
+  font-size: .75em;
+  color: black;
+}
+
+article {
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  width: 30em;
+}
+
+article h2 {
+  background-color:rgba(239,239,239,0.5);
+  padding: 1em;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+article p {
+  padding: 0em 1em 0 1em;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+article p#timeline {
+  margin: 1em;
+  padding: 1em;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color:rgba(0,0,0,0.5);
+  color: white;
+  width: 19em;
+}
+
+article footer {
+  background-color:#EFEFEF;
+  padding: 1em 0 0 1em;
+}
+
+a[href^="mailto"] {
+  background: url(images/social/email.png) no-repeat 2px 2px;
+  padding-left: 1.25em;
+  border-bottom: dotted 1pt black;
+  text-decoration: none;
+}
